@@ -4,16 +4,14 @@ namespace Daaner\NovaPoshta\Traits;
 
 trait Limit
 {
-    protected $limit;
-    protected $page;
+    protected string $limit;
+    protected string $page;
 
     /**
-     * Установка лимита записей.
-     *
-     * @param  int  $limit  Лимит записей
+     * @param string $limit
      * @return $this
      */
-    public function setLimit(int $limit): self
+    public function setLimit(string $limit): self
     {
         $this->limit = $limit;
 
@@ -21,12 +19,10 @@ trait Limit
     }
 
     /**
-     * Установка страницы.
-     *
-     * @param  int  $page  Номер страницы данных
+     * @param string $page
      * @return $this
      */
-    public function setPage(int $page): self
+    public function setPage(string $page): self
     {
         $this->page = $page;
 
