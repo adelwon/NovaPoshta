@@ -4,8 +4,8 @@ namespace Daaner\NovaPoshta\Traits;
 
 trait Limit
 {
-    protected string $limit;
-    protected string $page;
+    protected ?string $limit = null;
+    protected ?string $page = null;
 
     /**
      * @param string $limit
