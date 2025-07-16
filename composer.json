@@ -1,8 +1,8 @@
 {
-    "name": "daaner/novaposhta",
+    "name": "adelwon/novaposhta",
     "description": "NovaPoshta (API 2.0) for Laravel 7+",
     "keywords": [
-        "daaner",
+        "adelwon",
         "novaposhta",
         "ukraine-delivery",
         "laravel-np",
